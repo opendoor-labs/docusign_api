@@ -20,7 +20,6 @@ Use the API, the DocusignApi instance will return a [curb](https://github.com/ta
 The library will log you in when initialized and will prefix the pathname with the correct endpoint for your account determined by the login process.
 
 Examples:
->>>>>>> readme
 
 ### GET
 Get a list of your account's templates
