@@ -1,6 +1,6 @@
 # docusign_api
 
-Use the Docusign REST API with libcurl
+A simple ruby gem for using the DocuSign REST API with libcurl.
 
 ## Usage
 Add to your Gemfile:
@@ -15,7 +15,12 @@ Initialize with your credentials, either inline or set a constant called `DOCUSI
   @api = DocusignApi.new username: 'username', password: 'password', integrator_key: 'abc1234', login_url: 'https://demo.docusign.net/restapi/v2/login_information'
 ```
 
-Use the API, the DocusignApi instance will return [curb](https://github.com/taf2/curb) responses. Examples:
+Use the API, the DocusignApi instance will return a [curb](https://github.com/taf2/curb) response.
+
+The library will log you in when initialized and will prefix the pathname with the correct endpoint for your account determined by the login process.
+
+Examples:
+>>>>>>> readme
 
 ### GET
 Get a list of your account's templates
@@ -82,7 +87,7 @@ Delete envelope recipients
   puts JSON::parse(c.body)
 ```
 
-## Docusign API Docs
+## DocuSign REST API Docs
 https://www.docusign.com/p/RESTAPIGuide/RESTAPIGuide.htm
 
 ## Source Code
