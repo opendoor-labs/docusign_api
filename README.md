@@ -15,7 +15,7 @@ Initialize with your credentials, either inline or set a constant called `DOCUSI
   @api = DocusignApi.new username: 'username', password: 'password', integrator_key: 'abc1234', login_url: 'https://demo.docusign.net/restapi/v2/login_information'
 ```
 
-Use the API, the DocusignApi instance will return [https://github.com/taf2/curb](Curb) responses. Examples:
+Use the API, the DocusignApi instance will return [curb](https://github.com/taf2/curb) responses. Examples:
 
 ### GET
 Get a list of your account's templates
@@ -86,4 +86,4 @@ Delete envelope recipients
 https://www.docusign.com/p/RESTAPIGuide/RESTAPIGuide.htm
 
 ## Source Code
-This project was created and is maintained by [https://www.openlistings.com](Open Listings Engineering) <engineering@openlistings.com>
+This project was created and is maintained by [Open Listings Engineering](https://www.openlistings.com) <engineering@openlistings.com>
