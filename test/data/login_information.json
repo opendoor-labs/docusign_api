@@ -1,0 +1,12 @@
+{
+	"loginAccounts": [{
+		"name": "Docusign API User",
+		"accountId": "1234567",
+		"baseUrl": "https://demo.docusign.net/restapi/v2/accounts/1234567",
+		"isDefault": "true",
+		"userName": "Docusign User",
+		"userId": "111111ee-41fd-4331-975e-123e51234eff",
+		"email": "nobody@e.e",
+		"siteDescription": ""
+	}]
+}
