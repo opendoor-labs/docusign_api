@@ -12,6 +12,8 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test)/})
   gem.require_paths = ['lib']
+  
+  gem.add_dependency 'curb', '< 0.9'
 
   gem.add_development_dependency 'minitest', '~> 5.8'
   gem.add_development_dependency 'mocha', '~> 1.1'
