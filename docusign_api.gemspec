@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.description = "A ruby gem for using the DocuSign REST API with libcurl"
   gem.authors     = ["Open Listings Engineering"]
   gem.email       = 'engineering@openlistings.com'
-  gem.homepage    = 'https://github.com/openlistings/docusign-api-rest-libcurl'
+  gem.homepage    = 'https://github.com/openlistings/docusign_api'
   gem.license     = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
