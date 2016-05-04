@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    docusign_api (0.1.0)
+    docusign_api (0.1.1)
       capistrano (~> 3.1)
       curb (< 0.9)
       sshkit (~> 1.2)
@@ -18,7 +18,7 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
-    capistrano-harrow (0.3.2)
+    capistrano-harrow (0.4.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     curb (0.8.8)
@@ -51,4 +51,4 @@ DEPENDENCIES
   webmock (= 1.22.3)
 
 BUNDLED WITH
-   1.11.2
+   1.12.1

@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name        = 'docusign_api'
-  gem.version     = '0.1.0'
+  gem.version     = '0.1.1'
   gem.date        = '2016-04-25'
   gem.summary     = "A ruby gem for using the DocuSign REST API with libcurl"
   gem.description = "A ruby gem for using the DocuSign REST API with libcurl"
