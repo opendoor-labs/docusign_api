@@ -1,45 +1,29 @@
 PATH
   remote: .
   specs:
-    docusign_api (0.1.1)
-      capistrano (~> 3.1)
-      curb (< 0.9)
-      sshkit (~> 1.2)
+    docusign_api (0.1.2)
+      curb (< 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.4.0)
-    airbrussh (1.0.1)
-      sshkit (>= 1.6.1, != 1.7.0)
-    capistrano (3.5.0)
-      airbrussh (>= 1.0.0)
-      capistrano-harrow
-      i18n
-      rake (>= 10.0.0)
-      sshkit (>= 1.9.0)
-    capistrano-harrow (0.4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    curb (0.8.8)
-    hashdiff (0.3.0)
-    i18n (0.7.0)
+    curb (0.9.10)
+    hashdiff (0.4.0)
     metaclass (0.0.4)
     minitest (5.8.4)
     mocha (1.1.0)
       metaclass (~> 0.0.1)
-    net-scp (1.2.1)
-      net-ssh (>= 2.6.5)
-    net-ssh (3.1.1)
-    rake (11.1.2)
-    safe_yaml (1.0.4)
-    sshkit (1.10.0)
-      net-scp (>= 1.1.2)
-      net-ssh (>= 2.8.0)
-    webmock (1.22.3)
+    public_suffix (4.0.4)
+    rake (12.3.3)
+    safe_yaml (1.0.5)
+    webmock (3.8.3)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
-      hashdiff
+      hashdiff (>= 0.4.0, < 2.0.0)
 
 PLATFORMS
   ruby
@@ -48,7 +32,8 @@ DEPENDENCIES
   docusign_api!
   minitest (~> 5.8)
   mocha (~> 1.1)
-  webmock (= 1.22.3)
+  rake (~> 12.3)
+  webmock (~> 3.8)
 
 BUNDLED WITH
-   1.12.1
+   1.17.3
